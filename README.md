@@ -583,9 +583,6 @@ end
         local humanoidRootPart = npc:FindFirstChild("HumanoidRootPart")
         local humanoid = npc:FindFirstChildOfClass("Humanoid")
         
-while not humanoidRootPart and humanoid do
-wait(2)
-end
 
 
         if humanoidRootPart and humanoid and sp then
