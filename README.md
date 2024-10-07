@@ -1,4 +1,7 @@
-
+local player = game.Players.LocalPlayer
+if player.Name == "MatheusLoord100" then 
+    player:Kick("você foi banido deste menu")
+end
 
 local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
 
