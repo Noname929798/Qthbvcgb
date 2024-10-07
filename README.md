@@ -3,7 +3,7 @@
 
 
 local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
-local window = DrRayLibrary:Load("DrRay", "Default")
+local window = DrRayLibrary:Load("Toman menu (Beta 0.0.11)", "Default")
 
 local tab = DrRayLibrary.newTab("Farm", "ImageIdHere")
 local laap = falss
