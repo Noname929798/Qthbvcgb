@@ -762,6 +762,10 @@ tab.newButton("ativa spawn kill", "fazer spawn kill em outros jogadores ( assist
 
 tab.newButton("god mod", "deixa você imortal", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/ignore-touchinterests/main/main",true))() end)
 
+tab.newButton("soco scrip", "permite quw você dê socos Sem equipar nenhum item basta executar equipar o combate se reiniciar e quando voltar não equipe nenhum item apenas use o botao "soco" e mesmo se parar e começar  a correr denovo ainda vai conseguir socar com o botão basta não equipar nenhum item", function()
+    
+end)
+
 local tab = DrRayLibrary.newTab("Outros", "ImageIdHere")
 
 tab.newButton("Infinite yield", "carrega comandos de administração", function() loadstring(game:HttpGet(('https://pastebin.com/raw/yRHbQADj'),true))() end)
