@@ -1,42 +1,8 @@
 
-local screenGui = Instance.new("ScreenGui")
-screenGui.Parent = game.CoreGui
 
-local textBox = Instance.new("TextBox")
-textBox.Parent = screenGui
-textBox.Position = UDim2.new(0.5, -75, 0.5, -25)
-textBox.Size = UDim2.new(0, 150, 0, 50)
-textBox.PlaceholderText = "Digite a chave"
-
-local confirmButton = Instance.new("TextButton")
-confirmButton.Parent = screenGui
-confirmButton.Position = UDim2.new(0.5, 20, 0.5, -25)
-confirmButton.Size = UDim2.new(0, 50, 0, 50)
-confirmButton.Text = "Confirmar"
-
-local key = "chave092.8"
-
-confirmButton.MouseButton1Click:Connect(function()
-    if textBox.Text == key then
-        print("acesso concedido")
-screenGui:Destroy()
-       local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
-local window = DrRayLibrary:Load("Toman menu (Pre-alpha 0.1)", "Default")
-    else
-        
-    end
-end)
-
-
-wait(5)
-local player = game.Players.LocalPlayer
-
-if player.Name ==  "Carneassadagotoza"  or "allefmito123" or "nicollasbobo1"  then
-screenGui:Destroy()
 local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
-local window = DrRayLibrary:Load("Toman menu (Beta 0.0.11)", "Default")
-print("premium versão"
-end
+
+local window = DrRayLibrary:Load("DrRay", "Default")
 
 
 
