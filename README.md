@@ -760,7 +760,7 @@ local tab = DrRayLibrary.newTab("PVP", "ImageIdHere")
 
 tab.newButton("ativa spawn kill", "fazer spawn kill em outros jogadores ( assista o tutorial para aprender a usar) ", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/lucaszedamanga/Fighting-academy-spawn-kill/main/README.md"))() end)
 
-
+tab.newButton("god mod", "deixa você imortal", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/ignore-touchinterests/main/main",true))() end)
 
 local tab = DrRayLibrary.newTab("Outros", "ImageIdHere")
 
