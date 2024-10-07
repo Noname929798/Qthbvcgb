@@ -35,6 +35,7 @@ if player.Name ==  "Carneassadagotoza"  or "allefmito123" or "nicollasbobo1"  th
 screenGui:Destroy()
 local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
 local window = DrRayLibrary:Load("Toman menu (Beta 0.0.11)", "Default")
+print("premium versão"
 end
 
 
