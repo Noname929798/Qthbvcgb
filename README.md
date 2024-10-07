@@ -23,7 +23,7 @@ screenGui:Destroy()
        local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
 local window = DrRayLibrary:Load("Toman menu (Pre-alpha 0.1)", "Default")
     else
-        print("key errado")
+        
     end
 end)
 
