@@ -559,7 +559,7 @@ unequipCombat()
             humanoid.Health = 100
             humanoid.Health = 900
 Humanoid.Health = Humanoid.Health +1
-for i = 1, 6  do
+for i = 1, 8  do
     wait()
 if sp then
     local player = game.Players.LocalPlayer
@@ -632,7 +632,7 @@ local pasta = workspace:WaitForChild("Npcs")
         local humanoid = npc:FindFirstChildOfClass("Humanoid")
 
     
-        
+        wait(0.5)
     if  not humanoid or not humanoidRootPart then
         wait(0.4)
         
