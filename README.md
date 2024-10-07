@@ -582,6 +582,11 @@ end
     for _, npc in pairs(subpasta:GetChildren()) do
         local humanoidRootPart = npc:FindFirstChild("HumanoidRootPart")
         local humanoid = npc:FindFirstChildOfClass("Humanoid")
+        
+while not humanoidRootPart and humanoid then
+wait(2)
+end
+
 
         if humanoidRootPart and humanoid and sp then
             wait(0.5)
