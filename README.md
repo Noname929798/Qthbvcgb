@@ -791,6 +791,10 @@ tab.newButton("anti ban", "Remove seu historico de mensagens do chat", function(
 
 tab.newButton("ghost hub", "carrega o menu fantasma 👻", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))() end)
 
+
+local tab = DrRayLibrary.newTab("duvidas❔", "ImageIdHere")
+
+
 window:Open()
 
     
