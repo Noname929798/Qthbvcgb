@@ -1,1 +1,1 @@
-# Qthbvcgb
+print("o")
