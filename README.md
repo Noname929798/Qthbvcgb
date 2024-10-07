@@ -795,6 +795,11 @@ tab.newButton("ghost hub", "carrega o menu fantasma 👻", function() loadstring
 local tab = DrRayLibrary.newTab("duvidas❔", "ImageIdHere")
 
 
+tab.newInput("Input", "Prints your input.", function(text)
+    
+end)
+
+
 window:Open()
 
     
