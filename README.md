@@ -796,13 +796,7 @@ local tab = DrRayLibrary.newTab("duvidas❔", "ImageIdHere")
 
 
 
-    tab.newButton("como usar o botão soco da aba PVP?", "use "/console" no seu chat para poder ler ", function()
-    print("para entender como funciona você ira precisar seguir algumas etapas 
-    1° segure o item combate e reinicie o seu personagem
-    2° quando respawnar não Segure nenhum item, agora você ira conseguir usar soco enquanto corre e enquanto esta andando com o soco desequipado Basta apertar o botão enquanto continua sem nenhum item equipado
     
-    obs: NÃO EQUIPAR NENHUM ITEM NEM MESMO O SOCO")
-end)
 
 window:Open()
 
