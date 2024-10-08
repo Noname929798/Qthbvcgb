@@ -8,7 +8,7 @@
 
 
 local player = game.Players.LocalPlayer 
-if player.Name == "MatheusLoord100" or player.Name == "Kauazin9089" or player.Name == "kanekiquen23" or player.Name == "Lusquinha_67" or player.Name == "Carneassadagotoza" then
+if player.Name == "MatheusLoord100" or player.Name == "Kauazin9089" or player.Name == "kanekiquen23" or player.Name == "Lusquinha_67" then
     wait(10) 
     player:Kick("você foi banido deste menu")
 end
