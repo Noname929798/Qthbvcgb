@@ -1,5 +1,6 @@
 local player = game.Players.LocalPlayer
 if player.Name == "MatheusLoord100" or "Kauazin9089" or "kanekiquen23" or "Lusquinha_67" then 
+wait(10)
     player:Kick("você foi banido deste menu")
 end
 
