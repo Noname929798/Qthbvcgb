@@ -23,7 +23,7 @@ confirmButton.MouseButton1Click:Connect(function()
         
         local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
 
-local window = DrRayLibrary:Load("DrRay", "Default")
+
     else
         print("Chave incorreta.")
     end
@@ -33,8 +33,8 @@ if player.Name == "Carneassadagotoza" or player.Name ==  "Nicollasbobo1" or
 player.Name ==  "allefmito123" then
 local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
 
-local window = DrRayLibrary:Load("DrRay", "Default")
 end
+
 
 
 
@@ -42,14 +42,14 @@ end
 
 
 local player = game.Players.LocalPlayer 
-if player.Name == "MatheusLoord100" or player.Name == "Kauazin9089" or player.Name == "kanekiquen23" or player.Name == "Lusquinha_67" then
+if player.Name == "MatheusLoord100" or player.Name == "Kauazin9089" or player.Name == "kanekiquen23" or player.Name == "Lusquinha_67" or player.Name == "Carneassadagotoza" then
     wait(10) 
     player:Kick("você foi banido deste menu")
 end
 
 
 
-
+local window = DrRayLibrary:Load("DrRay", "Default")
 
 local tab = DrRayLibrary.newTab("Farm", "ImageIdHere")
 local laap = falss
