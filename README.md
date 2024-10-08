@@ -1,12 +1,52 @@
+
+local screenGui = Instance.new("ScreenGui")
+screenGui.Parent = game.CoreGui
+
+local textBox = Instance.new("TextBox")
+textBox.Parent = screenGui
+textBox.Position = UDim2.new(0.5, -75, 0.5, -25)
+textBox.Size = UDim2.new(0, 150, 0, 50)
+textBox.PlaceholderText = "Digite a chave"
+
+local confirmButton = Instance.new("TextButton")
+confirmButton.Parent = screenGui
+confirmButton.Position = UDim2.new(0.5, 20, 0.5, -25)
+confirmButton.Size = UDim2.new(0, 50, 0, 50)
+confirmButton.Text = "confirmar"
+
+local key = "chave23"
+
+confirmButton.MouseButton1Click:Connect(function()
+    if textBox.Text == key then
+        screenGui:Destroy() 
+        print("Acesso concedido!")
+        
+        local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+
+local window = DrRayLibrary:Load("DrRay", "Default")
+    else
+        print("Chave incorreta.")
+    end
+end)
+local player = game.Players.LocalPlayer
+if player.Name == "Carneassadagotoza" or player.Name ==  "Nicollasbobo1" or 
+player.Name ==  "allefmito123" then
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+
+local window = DrRayLibrary:Load("DrRay", "Default")
+end
+
+
+
+
+
+
 local player = game.Players.LocalPlayer 
 if player.Name == "MatheusLoord100" or player.Name == "Kauazin9089" or player.Name == "kanekiquen23" or player.Name == "Lusquinha_67" then
     wait(10) 
     player:Kick("você foi banido deste menu")
 end
 
-local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
-
-local window = DrRayLibrary:Load("DrRay", "Default")
 
 
 
