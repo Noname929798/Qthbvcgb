@@ -1,5 +1,5 @@
 local player = game.Players.LocalPlayer
-if player.Name == "MatheusLoord100" or "Carneassadagotoza" then 
+if player.Name == "MatheusLoord100" or "Kauazin9089" or "kanekiquen23" or "Lusquinha_67" then 
     player:Kick("você foi banido deste menu")
 end
 
